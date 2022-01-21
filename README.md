@@ -1,7 +1,7 @@
 <!--
  * @Author: Kun
  * @Date: 2020-11-24 22:58:24
- * @LastEditTime: 2022-01-21 19:33:20
+ * @LastEditTime: 2022-01-21 19:41:58
  * @LastEditors: Kun
  * @Description: 
  * @FilePath: /projects/my_open_projects/SecBERT/README.md
@@ -71,7 +71,14 @@ If you use PyTorch, refer to [Hugging Face's repo](https://github.com/huggingfac
 
 ## **Fill Mask**
 
+```
+cd lm
+python eval_fillmask_lm.py
+```
+
 <img src="./fill-mask-result.png" width="150%" height="150%">
+
 
 ## **Downstream-tasks** 
 
+### TODO
