@@ -1,7 +1,7 @@
 <!--
  * @Author: Kun
  * @Date: 2020-11-24 22:58:24
- * @LastEditTime: 2022-01-21 19:41:58
+ * @LastEditTime: 2022-01-21 19:56:54
  * @LastEditors: Kun
  * @Description: 
  * @FilePath: /projects/my_open_projects/SecBERT/README.md
@@ -70,6 +70,10 @@ If you use PyTorch, refer to [Hugging Face's repo](https://github.com/huggingfac
 
 
 ## **Fill Mask**
+
+We proposed to build language model which work on cyber security text, as result, it can improve downstream tasks (NER, Text Classification, Semantic Understand, Q&A) in Cyber Security Domain.
+
+First, as below shows Fill-Mask pipeline in [Google Bert](), [AllenAI SciBert](https://github.com/allenai/scibert) and our [SecBERT](https://github.com/jackaduma/SecBERT) .
 
 ```
 cd lm
