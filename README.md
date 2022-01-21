@@ -1,7 +1,7 @@
 <!--
  * @Author: Kun
  * @Date: 2020-11-24 22:58:24
- * @LastEditTime: 2022-01-21 14:05:35
+ * @LastEditTime: 2022-01-21 15:36:01
  * @LastEditors: Kun
  * @Description: 
  * @FilePath: /projects/my_open_projects/SecBERT/README.md
@@ -34,6 +34,7 @@
 ## **Downloading Trained Models**
 
 SecBERT models now installable directly within Huggingface's framework:
+
 ```
 from transformers import AutoTokenizer, AutoModelForMaskedLM
 
@@ -52,7 +53,9 @@ model = AutoModelForMaskedLM.from_pretrained("jackaduma/SecRoBERTa")
 
 ## **Pretrained-Weights** 
 
-`Huggingface Modelhub`
+We release the the pytorch version of the trained models. The pytorch version is created using the [Hugging Face](https://github.com/huggingface/pytorch-pretrained-BERT) library, and this repo shows how to use it.
+
+[Huggingface Modelhub](https://huggingface.co/models)
 
   * [SecBert](https://huggingface.co/jackaduma/SecBERT)
 
