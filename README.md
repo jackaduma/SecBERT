@@ -1,7 +1,7 @@
 <!--
  * @Author: Kun
  * @Date: 2020-11-24 22:58:24
- * @LastEditTime: 2022-01-21 15:36:01
+ * @LastEditTime: 2022-01-21 19:33:20
  * @LastEditors: Kun
  * @Description: 
  * @FilePath: /projects/my_open_projects/SecBERT/README.md
@@ -62,4 +62,16 @@ We release the the pytorch version of the trained models. The pytorch version is
   * [SecRoBERTa](https://huggingface.co/jackaduma/SecRoBERTa)
 
 
+### **Using SecBERT in your own model**
+
+SecBERT models include all necessary files to be plugged in your own model and are in same format as BERT.
+
+If you use PyTorch, refer to [Hugging Face's repo](https://github.com/huggingface/pytorch-pretrained-BERT) where detailed instructions on using BERT models are provided. 
+
+
+## **Fill Mask**
+
+<img src="./fill-mask-result.png" width="150%" height="150%">
+
 ## **Downstream-tasks** 
+
