@@ -15,6 +15,8 @@
 
 `SecBERT` 是一个在网络安全领域的文本上训练得到的 `BERT` 模型，旨在学习网络安全领域的知识。
 
+本项目使用预训练的语言模型BERT（Bidirectional Encoder Representations from Transformers）来处理网络安全领域的文本数据，以提高恶意软件分类的准确性。BERT是一种基于Transformer架构的深度学习模型，可以捕捉句子中的上下文信息，从而更好地理解文本数据。该项目使用BERT作为预训练的语言模型，在其基础上进行微调，以适应网络安全领域的文本分类任务。具体来说，该项目使用了一个名为SecBERT的BERT模型，用于对恶意软件进行分类，其输入数据包括二进制文件和文本文档等。通过对SecBERT模型的微调，该项目取得了在公开数据集上的较好表现，证明了利用预训练的语言模型处理网络安全文本数据的可行性和有效性。
+
 * `SecBERT` 模型在如下的 文章和数据corpus上训练得到：
   
   * [APTnotes](https://github.com/kbandla/APTnotes)
